@@ -11,7 +11,7 @@ export default function Footer() {
             </div>
             <div>
               <p className="text-white font-bold">Matusi Dataset V2</p>
-              <p className="text-xs text-gray-500">JKUAT · Nairobi, Kenya</p>
+              <p className="text-xs text-gray-500">JHUB africa , JKUAT · Nairobi, Kenya</p>
             </div>
           </div>
 

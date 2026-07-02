@@ -37,29 +37,52 @@ export default function Team() {
         </div>
 
         {/* Contributor image grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16">
-          <div className="relative rounded-2xl overflow-hidden h-56 group">
-            <img src="https://images.pexels.com/photos/3727464/pexels-photo-3727464.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Researcher" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-            <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent" />
-            <p className="absolute bottom-3 left-3 text-white text-sm font-semibold">Researchers</p>
-          </div>
-          <div className="relative rounded-2xl overflow-hidden h-56 group">
-            <img src="https://images.pexels.com/photos/6147369/pexels-photo-6147369.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Student" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-            <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent" />
-            <p className="absolute bottom-3 left-3 text-white text-sm font-semibold">Students</p>
-          </div>
-          <div className="relative rounded-2xl overflow-hidden h-56 group">
-            <img src="https://images.pexels.com/photos/3184405/pexels-photo-3184405.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Native speakers" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-            <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent" />
-            <p className="absolute bottom-3 left-3 text-white text-sm font-semibold">Native Speakers</p>
-          </div>
-          <div className="relative rounded-2xl overflow-hidden h-56 group">
-            <img src="https://images.pexels.com/photos/3184464/pexels-photo-3184464.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Collaborators" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-            <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent" />
-            <p className="absolute bottom-3 left-3 text-white text-sm font-semibold">Collaborators</p>
-          </div>
-        </div>
+        <div className="flex justify-center mb-20">
+  <div className="bg-white border border-gray-200 rounded-3xl p-8 md:p-12 shadow-sm w-full max-w-4xl">
+    <h3 className="text-2xl font-bold text-gray-900 text-center">
+      Project Team Members
+    </h3>
 
+    {/* Yellow accent */}
+    <div className="w-24 h-1 bg-yellow-400 rounded-full mx-auto mt-3 mb-10" />
+
+    <div className="grid md:grid-cols-2 gap-x-16 gap-y-4">
+      {[
+		"Dr.Lawrence Nderu - Supervisor",
+        "Allan Kinuthia - Intern",
+        "Brian Matara - Intern",
+        "Daiddo Githaiga - Intern",
+        "Stephen Njuguna - Intern",
+        "Hope Wangari - Intern",
+        "Newton Lekakeny - Intern",
+        "Haron Murithi - Intern",
+      ].map((member, index) => (
+        <div
+          key={index}
+          className="
+            flex items-center gap-4
+            bg-gray-50
+            border border-gray-100
+            rounded-2xl
+            p-4
+            hover:border-yellow-400
+            hover:bg-yellow-50
+            hover:shadow-md
+            transition-all duration-300
+          "
+        >
+          <div className="w-10 h-10 bg-yellow-400 rounded-xl flex items-center justify-center text-gray-900 font-bold shrink-0">
+            {index + 1}
+          </div>
+
+          <p className="text-gray-700 font-medium">
+            {member}
+          </p>
+        </div>
+      ))}
+    </div>
+  </div>
+</div>
         {/* Values */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {values.map(({ icon: Icon, title, desc }) => (

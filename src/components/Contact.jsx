@@ -45,14 +45,14 @@ export default function Contact() {
             <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6">
               <Mail className="w-6 h-6 text-yellow-400 mb-3" />
               <h3 className="text-white font-bold mb-1">Email Us</h3>
-              <p className="text-gray-300 text-sm">matusi@jkuat.ac.ke</p>
+              <p className="text-gray-300 text-sm">info@jkuat.ac.ke</p>
               <p className="text-gray-400 text-xs mt-1">We respond within 2 business days.</p>
             </div>
 
             <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6">
               <MapPin className="w-6 h-6 text-yellow-400 mb-3" />
               <h3 className="text-white font-bold mb-1">Location</h3>
-              <p className="text-gray-300 text-sm">Jomo Kenyatta University of Agriculture and Technology</p>
+              <p className="text-gray-300 text-sm">JHUB africa, Jomo Kenyatta University of Agriculture and Technology</p>
               <p className="text-gray-400 text-xs mt-1">Nairobi, Kenya</p>
             </div>
 
