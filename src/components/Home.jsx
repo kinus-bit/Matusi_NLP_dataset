@@ -24,10 +24,10 @@ export default function Home() {
           <span className="inline-block text-xs font-semibold tracking-widest uppercase text-yellow-400 mb-6 border border-yellow-400/40 px-3 py-1 rounded-full">
             Matusi Dataset V2 · Contributor Training
           </span>
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight mb-6">
+          <h1 className="text-5xl md:text-6xl lg:text-5xl font-bold text-white leading-tight mb-6">
             Building High-Quality<br />
-            <span className="text-yellow-400">African NLP</span><br />
-            Datasets for AI
+            <span className="text-yellow-400">African abusive languages NLP </span><br />
+            Datasets for training AI
           </h1>
           <p className="text-lg text-white/70 leading-relaxed max-w-xl mb-10">
             African voices are underrepresented in the AI systems shaping our world. Matusi is a community-powered effort to change that — one carefully annotated sentence at a time.
