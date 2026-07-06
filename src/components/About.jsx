@@ -33,7 +33,7 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
           <div className="relative">
             <img
-              src="https://images.pexels.com/photos/6476260/pexels-photo-6476260.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="https://africdsa.com/assets/home-hero-cwTYDuE8.jpg"
               alt="African researchers collaborating"
               className="rounded-3xl w-full h-80 object-cover shadow-xl"
             />
@@ -72,12 +72,12 @@ export default function About() {
         {/* Image strip */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-20">
           <div className="relative rounded-2xl overflow-hidden h-44 group">
-            <img src="https://images.pexels.com/photos/4145190/pexels-photo-4145190.jpeg?auto=compress&cs=tinysrgb&w=600" alt="African languages" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+            <img src="https://www.ivokan.com/images/Ivokan-learning-african-language.jpg?auto=compress&cs=tinysrgb&w=6009" alt="African languages" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
             <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent" />
             <p className="absolute bottom-3 left-3 text-white text-xs font-semibold">2,000+ languages</p>
           </div>
           <div className="relative rounded-2xl overflow-hidden h-44 group">
-            <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Data annotation" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+            <img src="https://img.magnific.com/premium-photo/business-woman-handshake-agreement-partnership-office-collaboration-promotion-welcome-black-female-entrepreneur-employee-shaking-hands-interview-greeting-b2b-deal_590464-183698.jpg?semt=ais_hybrid&w=740&q=80?auto=compress&cs=tinysrgb&w=600" alt="Data annotation" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
             <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent" />
             <p className="absolute bottom-3 left-3 text-white text-xs font-semibold">Careful annotation</p>
           </div>
