@@ -24,7 +24,7 @@ export default function Team() {
         {/* Image banner */}
         <div className="relative rounded-3xl overflow-hidden mb-8 h-80">
           <img
-            src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=1400"
+            src="https://www.newtimes.co.rw/uploads/imported_images/files/main/articles/2022/08/09/main_picture.jpg?auto=compress&cs=tinysrgb&w=1400"
             alt="Team collaboration"
             className="w-full h-full object-cover"
           />

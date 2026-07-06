@@ -34,7 +34,7 @@ export default function Contact() {
           {/* Info side */}
           <div className="md:col-span-2 space-y-6">
             <div className="relative rounded-2xl overflow-hidden h-48">
-              <img src="https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Get in touch" className="w-full h-full object-cover" />
+              <img src="https://live.staticflickr.com/1528/26087510866_2635e9b43f_b.jpg?auto=compress&cs=tinysrgb&w=800" alt="Get in touch" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 to-gray-700/30" />
               <div className="absolute bottom-0 left-0 p-5">
                 <p className="text-white font-bold text-lg">Join the movement</p>

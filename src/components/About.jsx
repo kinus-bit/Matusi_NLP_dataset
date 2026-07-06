@@ -82,12 +82,12 @@ export default function About() {
             <p className="absolute bottom-3 left-3 text-white text-xs font-semibold">Careful annotation</p>
           </div>
           <div className="relative rounded-2xl overflow-hidden h-44 group">
-            <img src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Research collaboration" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+            <img src="https://st4.depositphotos.com/2783505/30904/i/450/depositphotos_309049518-stock-photo-motivated-african-american-business-team.jpg" alt="Research collaboration" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
             <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent" />
             <p className="absolute bottom-3 left-3 text-white text-xs font-semibold">Community research</p>
           </div>
           <div className="relative rounded-2xl overflow-hidden h-44 group">
-            <img src="https://images.pexels.com/photos/3184325/pexels-photo-3184325.jpeg?auto=compress&cs=tinysrgb&w=600" alt="AI development" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+            <img src="https://img.magnific.com/free-photo/team-leader-server-room-teaching-intern-how-monitor-performance_482257-117997.jpg?semt=ais_hybrid&w=740&q=80?auto=compress&cs=tinysrgb&w=600" alt="AI development" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
             <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent" />
             <p className="absolute bottom-3 left-3 text-white text-xs font-semibold">AI for Africa</p>
           </div>
